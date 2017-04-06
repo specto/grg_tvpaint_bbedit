@@ -1,1 +1,1 @@
-# grg_tvpaint
+# TVPaint George Script syntax highlight for BBEdit
