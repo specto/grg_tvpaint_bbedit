@@ -1,4 +1,4 @@
-# TVPaint George Script syntax highlight for BBEdit
+# TVPaint George Script syntax highlighting for BBEdit
 
 ## Usage
 
