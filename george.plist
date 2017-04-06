@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>BBEditDocumentType</key>           <string>CodelessLanguageModule</string>
+    <key>BBLMLanguageCode</key>             <string>grg</string>
+    <key>BBLMColorsSyntax</key>             <true/>
+    <key>BBLMIsCaseSensitive</key>          <false/>
+    <key>BBLMLanguageDisplayName</key>      <string>George Script (TVPaint)</string>
+    <key>BBLMScansFunctions</key>           <true/>
+    <key>BBLMCommentLineDefault</key>       <string>//</string>
+
+    <key>BBLMReferenceSearchURLTemplate</key>
+    <string><![CDATA[http://wiki.tvpaint.com/index.php?title=Special%3ASearch&search=__SYMBOLNAME__&go=Go]]></string>
+
+    <key>BBLMPreferredFilenameExtension</key>
+    <string>grg</string>
+
+    <key>BBLMSuffixMap</key>
+    <array>
+        <dict>
+            <key>BBLMLanguageSuffix</key>   <string>.grg</string>
+        </dict>
+    </array>
+
+    <key>BBLMKeywordList</key>
+    <array>
+        <string>abs</string>
+        <string>acos</string>
+        <string>asin</string>
+        <string>atan</string>
+        <string>break</string>
+        <string>char</string>
+        <string>cmp</string>
+        <string>cos</string>
+        <string>cut</string>
+        <string>date</string>
+        <string>do</string>
+        <string>end</string>
+        <string>function</string>
+        <string>until</string>
+        <string>exit</string>
+        <string>for</string>
+        <string>if</string>
+        <string>len</string>
+        <string>local</string>
+        <string>max</string>
+        <string>min</string>
+        <string>param</string>
+        <string>parse</string>
+        <string>pause</string>
+        <string>print</string>
+        <string>result</string>
+        <string>return</string>
+        <string>rnd</string>
+        <string>sin</string>
+        <string>sqr</string>
+        <string>tan</string>
+        <string>time</string>
+        <string>trunc</string>
+        <string>version</string>
+        <string>while</string>
+    </array>
+    <key>BBLMPredefinedNameList</key>
+    <array>
+        <string>tv_airbrush</string>
+        <string>tv_areadraw</string>
+        <string>tv_areagradientvector</string>
+        <string>tv_areainit</string>
+        <string>tv_areamove</string>
+        <string>tv_background</string>
+        <string>tv_blend</string>
+        <string>tv_brushcut</string>
+        <string>tv_brushinfo</string>
+        <string>tv_brushpoly</string>
+        <string>tv_brushrestore</string>
+        <string>tv_bump</string>
+        <string>tv_circle</string>
+        <string>tv_circlefill</string>
+        <string>tv_clear</string>
+        <string>tv_clipcurrentid</string>
+        <string>tv_clipenumid</string>
+        <string>tv_clipinfo</string>
+        <string>tv_connexionsettings</string>
+        <string>tv_convolve33</string>
+        <string>tv_convolve55</string>
+        <string>tv_crazyblur</string>
+        <string>tv_custommode</string>
+        <string>tv_densitylinex</string>
+        <string>tv_densityliney</string>
+        <string>tv_densityx</string>
+        <string>tv_densityy</string>
+        <string>tv_display</string>
+        <string>tv_dot</string>
+        <string>tv_drawsmoothing</string>
+        <string>tv_ellipse</string>
+        <string>tv_ellipsefill</string>
+        <string>tv_fastline</string>
+        <string>tv_fieldcopy</string>
+        <string>tv_fielddouble</string>
+        <string>tv_fill</string>
+        <string>tv_filter</string>
+        <string>tv_firstimage</string>
+        <string>tv_fixmotion</string>
+        <string>tv_flipimagex</string>
+        <string>tv_flipimagey</string>
+        <string>tv_framerate</string>
+        <string>tv_gauge</string>
+        <string>tv_gblur</string>
+        <string>tv_getactiveshape</string>
+        <string>tv_getactivetool</string>
+        <string>tv_getapen</string>
+        <string>tv_getbpen</string>
+        <string>tv_getdrawmode</string>
+        <string>tv_getfield</string>
+        <string>tv_getheight</string>
+        <string>tv_getmodifiers</string>
+        <string>tv_getmouse</string>
+        <string>tv_getpalette</string>
+        <string>tv_getpixel</string>
+        <string>tv_getpixeldisplay</string>
+        <string>tv_getpixellayer</string>
+        <string>tv_getprojectname</string>
+        <string>tv_getuser</string>
+        <string>tv_getwidth</string>
+        <string>tv_ghostline</string>
+        <string>tv_grab</string>
+        <string>tv_healingsource</string>
+        <string>tv_host2back</string>
+        <string>tv_host2front</string>
+        <string>tv_imagepop</string>
+        <string>tv_imagepush</string>
+        <string>tv_infobar</string>
+        <string>tv_lastimage</string>
+        <string>tv_layeranim</string>
+        <string>tv_layerautobreakinstance</string>
+        <string>tv_layerautocreateinstance</string>
+        <string>tv_layercolor</string>
+        <string>tv_layercopy</string>
+        <string>tv_layercreate</string>
+        <string>tv_layercurrentid</string>
+        <string>tv_layerdensity</string>
+        <string>tv_layerduplicate</string>
+        <string>tv_layerfetch</string>
+        <string>tv_layergetid</string>
+        <string>tv_layergetimage</string>
+        <string>tv_layergetpos</string>
+        <string>tv_layerhold</string>
+        <string>tv_layerimage</string>
+        <string>tv_layerinfo</string>
+        <string>tv_layerinvert</string>
+        <string>tv_layerkill</string>
+        <string>tv_layerloaddependencies</string>
+        <string>tv_layerlockposition</string>
+        <string>tv_layermerge</string>
+        <string>tv_layermergeall</string>
+        <string>tv_layermove</string>
+        <string>tv_layerpaste</string>
+        <string>tv_layerpostbehavior</string>
+        <string>tv_layerprebehavior</string>
+        <string>tv_layerrename</string>
+        <string>tv_layerselect</string>
+        <string>tv_layerselectinfo</string>
+        <string>tv_layerset</string>
+        <string>tv_layershift</string>
+        <string>tv_layerstencil</string>
+        <string>tv_layerstretch</string>
+        <string>tv_line</string>
+        <string>tv_listrequest</string>
+        <string>tv_loadspare</string>
+        <string>tv_lockcacheflush</string>
+        <string>tv_lockdisplay</string>
+        <string>tv_lockmouse</string>
+        <string>tv_markin</string>
+        <string>tv_markout</string>
+        <string>tv_menuhide</string>
+        <string>tv_menushow</string>
+        <string>tv_mosaic</string>
+        <string>tv_noise</string>
+        <string>tv_nop</string>
+        <string>tv_oilbrush</string>
+        <string>tv_panning</string>
+        <string>tv_penbrush</string>
+        <string>tv_pencil</string>
+        <string>tv_perswrap</string>
+        <string>tv_piccolor</string>
+        <string>tv_pixelmatrix</string>
+        <string>tv_preserve</string>
+        <string>tv_projectclose</string>
+        <string>tv_projectcurrentid</string>
+        <string>tv_projectenumid</string>
+        <string>tv_projectinfo</string>
+        <string>tv_projectnew</string>
+        <string>tv_propelling</string>
+        <string>tv_quit</string>
+        <string>tv_rangeclear</string>
+        <string>tv_rangegrab</string>
+        <string>tv_rangenoise</string>
+        <string>tv_rangeset</string>
+        <string>tv_ratio</string>
+        <string>tv_readprojectstring</string>
+        <string>tv_readuserstring</string>
+        <string>tv_reapply</string>
+        <string>tv_rect</string>
+        <string>tv_rectfill</string>
+        <string>tv_redo</string>
+        <string>tv_reqangle</string>
+        <string>tv_reqfile</string>
+        <string>tv_reqfloat</string>
+        <string>tv_reqnum</string>
+        <string>tv_reqstring</string>
+        <string>tv_request</string>
+        <string>tv_resetdisplay</string>
+        <string>tv_runscript</string>
+        <string>tv_selectshapetool</string>
+        <string>tv_serialnumber</string>
+        <string>tv_setactiveshape</string>
+        <string>tv_setapen</string>
+        <string>tv_setbpen</string>
+        <string>tv_setcolor</string>
+        <string>tv_setdrawmode</string>
+        <string>tv_setpalette</string>
+        <string>tv_shadow</string>
+        <string>tv_smooth</string>
+        <string>tv_smoothdensity</string>
+        <string>tv_smoothedge</string>
+        <string>tv_spareadddensity</string>
+        <string>tv_sparecopy</string>
+        <string>tv_sparekill</string>
+        <string>tv_sparesubdensity</string>
+        <string>tv_spareswap</string>
+        <string>tv_sparetoback</string>
+        <string>tv_sparetofront</string>
+        <string>tv_specialbrush</string>
+        <string>tv_speed</string>
+        <string>tv_startframe</string>
+        <string>tv_strokepoint</string>
+        <string>tv_strokesize</string>
+        <string>tv_tcmode</string>
+        <string>tv_textbrush</string>
+        <string>tv_texttool</string>
+        <string>tv_texttool2</string>
+        <string>tv_tornado</string>
+        <string>tv_undo</string>
+        <string>tv_unlockcacheflush</string>
+        <string>tv_unlockdisplay</string>
+        <string>tv_unlockmouse</string>
+        <string>tv_updateundo</string>
+        <string>tv_version</string>
+        <string>tv_vfgetfont</string>
+        <string>tv_vfstringsize</string>
+        <string>tv_waitbutton</string>
+        <string>tv_warn</string>
+        <string>tv_warpbrush</string>
+        <string>tv_wave</string>
+        <string>tv_wetbrush</string>
+        <string>tv_writepixel</string>
+        <string>tv_writeprojectstring</string>
+        <string>tv_writeuserstring</string>
+        <string>tv_zdot</string>
+        <string>tv_zline</string>
+    </array>
+
+    <key>Language Features</key>
+    <dict>
+        <key>Identifier and Keyword Characters</key>
+        <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_-abcdefghijklmnopqrstuvwxyz</string>
+
+        <key>Prefix for Functions</key>         <string>function</string>
+        <key>Prefix for Procedures</key>        <string>function</string>
+        <key>Open Parameter Lists</key>         <string>(</string>
+        <key>Close Parameter Lists</key>        <string>)</string>
+
+        <key>BBLMCommentPrefixDefault</key>     <string>//</string>
+        <key>Open Line Comments</key>           <string>//</string>
+
+        <key>Open Strings 1</key>               <string>"</string>
+        <key>Close Strings 1</key>              <string>"</string>
+        <key>Escape Char in Strings 1</key>     <string>\</string>
+        <key>End-of-line Ends Strings 1</key>   <true/>
+
+        <key>Open Strings 2</key>               <string>'</string>
+        <key>Close Strings 2</key>              <string>'</string>
+        <key>Escape Char in Strings 2</key>     <string>\</string>
+        <key>End-of-line Ends Strings 2</key>   <true/>
+
+        <key>Function Pattern</key>
+        <string><![CDATA[
+        (?x:
+        (?P<leadspace>^\s*)
+        (?P<function>
+            function\s+
+            (?P<function_name>
+                [a-zA-Z0-9_!?]+
+            )
+            (?s:.+?)
+            \r(?P=leadspace)end\b
+        )
+        )]]></string>
+    </dict>
+</dict>
+</plist>
