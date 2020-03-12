@@ -13,6 +13,8 @@
     <key>BBLMReferenceSearchURLTemplate</key>
     <string><![CDATA[http://wiki.tvpaint.com/index.php?title=Special%3ASearch&search=__SYMBOLNAME__&go=Go]]></string>
 
+    <!--  Actual list of commands: https://www.tvpaint.com/doc/tvpaint-animation-11/george-commands   -->
+
     <key>BBLMPreferredFilenameExtension</key>
     <string>grg</string>
 
@@ -36,11 +38,11 @@
         <string>cut</string>
         <string>date</string>
         <string>do</string>
+        <string>else</string>
         <string>end</string>
-        <string>function</string>
-        <string>until</string>
         <string>exit</string>
         <string>for</string>
+        <string>function</string>
         <string>if</string>
         <string>len</string>
         <string>local</string>
@@ -58,36 +60,81 @@
         <string>tan</string>
         <string>time</string>
         <string>trunc</string>
+        <string>until</string>
         <string>version</string>
         <string>while</string>
     </array>
     <key>BBLMPredefinedNameList</key>
     <array>
         <string>tv_airbrush</string>
+        <string>tv_airpower</string>
+        <string>tv_alphaloadmode</string>
+        <string>tv_alphasavemode</string>
         <string>tv_areadraw</string>
         <string>tv_areagradientvector</string>
         <string>tv_areainit</string>
         <string>tv_areamove</string>
         <string>tv_background</string>
+        <string>tv_beep</string>
         <string>tv_blend</string>
+        <string>tv_bookmarkclear</string>
+        <string>tv_bookmarknext</string>
+        <string>tv_bookmarkprev</string>
+        <string>tv_bookmarksenum</string>
+        <string>tv_bookmarkset</string>
+        <string>tv_bookmarktoggle</string>
         <string>tv_brushcut</string>
+        <string>tv_brushfromclipboard</string>
         <string>tv_brushinfo</string>
+        <string>tv_brushoutline</string>
         <string>tv_brushpoly</string>
+        <string>tv_brushpower</string>
         <string>tv_brushrestore</string>
+        <string>tv_brushrotate</string>
+        <string>tv_brushstretch</string>
+        <string>tv_brushtoclipboard</string>
         <string>tv_bump</string>
+        <string>tv_cameraenumpoints</string>
+        <string>tv_camerainfo</string>
+        <string>tv_camerainsertpoint</string>
+        <string>tv_camerainterpolation</string>
+        <string>tv_camerapath</string>
+        <string>tv_cameraremovepoint</string>
+        <string>tv_camerasetpoint</string>
         <string>tv_circle</string>
         <string>tv_circlefill</string>
         <string>tv_clear</string>
+        <string>tv_clipaction</string>
+        <string>tv_clipboardsize</string>
+        <string>tv_clipclose</string>
+        <string>tv_clipcolor</string>
         <string>tv_clipcurrentid</string>
+        <string>tv_clipdialog</string>
+        <string>tv_clipduplicate</string>
         <string>tv_clipenumid</string>
+        <string>tv_cliphidden</string>
         <string>tv_clipinfo</string>
+        <string>tv_clipmove</string>
+        <string>tv_clipname</string>
+        <string>tv_clipnew</string>
+        <string>tv_clipnote</string>
+        <string>tv_clipsavestructure</string>
+        <string>tv_clipselect</string>
+        <string>tv_clipselection</string>
+        <string>tv_cmd</string>
+        <string>tv_colorfactory</string>
         <string>tv_connexionsettings</string>
         <string>tv_convolve33</string>
         <string>tv_convolve55</string>
+        <string>tv_copytoconfig</string>
         <string>tv_crazyblur</string>
         <string>tv_custommode</string>
         <string>tv_densitylinex</string>
         <string>tv_densityliney</string>
+        <string>tv_densitymodex</string>
+        <string>tv_densitymodey</string>
+        <string>tv_densityoff</string>
+        <string>tv_densityon</string>
         <string>tv_densityx</string>
         <string>tv_densityy</string>
         <string>tv_display</string>
@@ -95,15 +142,30 @@
         <string>tv_drawsmoothing</string>
         <string>tv_ellipse</string>
         <string>tv_ellipsefill</string>
+        <string>tv_eraserbrush</string>
+        <string>tv_exposureadd</string>
+        <string>tv_exposurebreak</string>
+        <string>tv_exposurefauxfixe</string>
+        <string>tv_exposureinfo</string>
+        <string>tv_exposurenext</string>
+        <string>tv_exposureprev</string>
+        <string>tv_exposureset</string>
         <string>tv_fastline</string>
         <string>tv_fieldcopy</string>
         <string>tv_fielddouble</string>
+        <string>tv_fileinfo</string>
         <string>tv_fill</string>
         <string>tv_filter</string>
         <string>tv_firstimage</string>
         <string>tv_fixmotion</string>
         <string>tv_flipimagex</string>
         <string>tv_flipimagey</string>
+        <string>tv_flipsadd</string>
+        <string>tv_flipsenum</string>
+        <string>tv_flipsmodify</string>
+        <string>tv_flipsremove</string>
+        <string>tv_flipx</string>
+        <string>tv_flipy</string>
         <string>tv_framerate</string>
         <string>tv_gauge</string>
         <string>tv_gblur</string>
@@ -111,35 +173,62 @@
         <string>tv_getactivetool</string>
         <string>tv_getapen</string>
         <string>tv_getbpen</string>
+        <string>tv_getdisplay</string>
         <string>tv_getdrawmode</string>
         <string>tv_getfield</string>
         <string>tv_getheight</string>
+        <string>tv_gethostpath</string>
+        <string>tv_getlanguage</string>
         <string>tv_getmodifiers</string>
         <string>tv_getmouse</string>
         <string>tv_getpalette</string>
+        <string>tv_getpath</string>
         <string>tv_getpixel</string>
-        <string>tv_getpixeldisplay</string>
         <string>tv_getpixellayer</string>
         <string>tv_getprojectname</string>
+        <string>tv_gettemppath</string>
         <string>tv_getuser</string>
         <string>tv_getwidth</string>
         <string>tv_ghostline</string>
         <string>tv_grab</string>
+        <string>tv_guidelineadd</string>
+        <string>tv_guidelineassist</string>
+        <string>tv_guidelinecollapse</string>
+        <string>tv_guidelinecolor</string>
+        <string>tv_guidelineenum</string>
+        <string>tv_guidelinemarge</string>
+        <string>tv_guidelinemodify</string>
+        <string>tv_guidelinename</string>
+        <string>tv_guidelineremove</string>
+        <string>tv_guidelinesnap</string>
+        <string>tv_guidelinevisible</string>
+        <string>tv_handle</string>
         <string>tv_healingsource</string>
         <string>tv_host2back</string>
         <string>tv_host2front</string>
+        <string>tv_imagefromclipboard</string>
+        <string>tv_imagegetbound</string>
         <string>tv_imagepop</string>
         <string>tv_imagepush</string>
+        <string>tv_imagetoclipboard</string>
         <string>tv_infobar</string>
+        <string>tv_instancegetname</string>
+        <string>tv_instancename</string>
+        <string>tv_instancesetname</string>
         <string>tv_lastimage</string>
         <string>tv_layeranim</string>
         <string>tv_layerautobreakinstance</string>
         <string>tv_layerautocreateinstance</string>
+        <string>tv_layerblendingmode</string>
+        <string>tv_layercollapse</string>
         <string>tv_layercolor</string>
+        <string>tv_layercompareimage</string>
         <string>tv_layercopy</string>
         <string>tv_layercreate</string>
         <string>tv_layercurrentid</string>
+        <string>tv_layercut</string>
         <string>tv_layerdensity</string>
+        <string>tv_layerdisplay</string>
         <string>tv_layerduplicate</string>
         <string>tv_layerfetch</string>
         <string>tv_layergetid</string>
@@ -148,59 +237,115 @@
         <string>tv_layerhold</string>
         <string>tv_layerimage</string>
         <string>tv_layerinfo</string>
+        <string>tv_layerinsertimage</string>
         <string>tv_layerinvert</string>
         <string>tv_layerkill</string>
         <string>tv_layerloaddependencies</string>
+        <string>tv_layerlock</string>
         <string>tv_layerlockposition</string>
+        <string>tv_layermarkget</string>
+        <string>tv_layermarkset</string>
         <string>tv_layermerge</string>
         <string>tv_layermergeall</string>
         <string>tv_layermove</string>
         <string>tv_layerpaste</string>
         <string>tv_layerpostbehavior</string>
         <string>tv_layerprebehavior</string>
+        <string>tv_layerrecomputeexposure</string>
         <string>tv_layerrename</string>
         <string>tv_layerselect</string>
         <string>tv_layerselectinfo</string>
+        <string>tv_layerselection</string>
         <string>tv_layerset</string>
         <string>tv_layershift</string>
+        <string>tv_layershowthumbnails</string>
         <string>tv_layerstencil</string>
         <string>tv_layerstretch</string>
+        <string>tv_libraryimageadd</string>
+        <string>tv_libraryimagecopy</string>
+        <string>tv_libraryimageinfo</string>
+        <string>tv_libraryimagelist</string>
+        <string>tv_libraryimagemodify</string>
+        <string>tv_libraryimagepaste</string>
+        <string>tv_libraryimageremove</string>
+        <string>tv_lighttablemode</string>
         <string>tv_line</string>
         <string>tv_listrequest</string>
+        <string>tv_loadbrush</string>
+        <string>tv_loadbrushanim</string>
+        <string>tv_loadimage</string>
+        <string>tv_loadpalette</string>
+        <string>tv_loadproject</string>
+        <string>tv_loadsequence</string>
         <string>tv_loadspare</string>
         <string>tv_lockcacheflush</string>
         <string>tv_lockdisplay</string>
         <string>tv_lockmouse</string>
+        <string>tv_lockuser</string>
+        <string>tv_magicnumber</string>
         <string>tv_markin</string>
         <string>tv_markout</string>
         <string>tv_menuhide</string>
         <string>tv_menushow</string>
         <string>tv_mosaic</string>
+        <string>tv_no_croptool</string>
+        <string>tv_no_cutbrushtool</string>
+        <string>tv_no_filltool</string>
+        <string>tv_no_selecttool</string>
         <string>tv_noise</string>
         <string>tv_nop</string>
+        <string>tv_noteblitimage</string>
+        <string>tv_notelock</string>
+        <string>tv_noterect</string>
+        <string>tv_notetext</string>
         <string>tv_oilbrush</string>
         <string>tv_panning</string>
+        <string>tv_pantoset</string>
+        <string>tv_paper</string>
+        <string>tv_paperenum</string>
+        <string>tv_paperfrombrush</string>
+        <string>tv_paperinfo</string>
+        <string>tv_pegholesapply</string>
+        <string>tv_pegholesset</string>
         <string>tv_penbrush</string>
         <string>tv_pencil</string>
         <string>tv_perswrap</string>
         <string>tv_piccolor</string>
         <string>tv_pixelmatrix</string>
+        <string>tv_plugin</string>
+        <string>tv_pointpower</string>
         <string>tv_preserve</string>
         <string>tv_projectclose</string>
+        <string>tv_projectcurrentframe</string>
         <string>tv_projectcurrentid</string>
+        <string>tv_projectduplicate</string>
         <string>tv_projectenumid</string>
+        <string>tv_projectheaderauthor</string>
+        <string>tv_projectheaderinfo</string>
+        <string>tv_projectheadernotes</string>
         <string>tv_projectinfo</string>
         <string>tv_projectnew</string>
+        <string>tv_projectrendercamera</string>
+        <string>tv_projectsavedependencies</string>
+        <string>tv_projectsavesequence</string>
+        <string>tv_projectselect</string>
         <string>tv_propelling</string>
         <string>tv_quit</string>
+        <string>tv_rangec</string>
         <string>tv_rangeclear</string>
         <string>tv_rangegrab</string>
         <string>tv_rangenoise</string>
+        <string>tv_rangeoff</string>
+        <string>tv_rangeon</string>
         <string>tv_rangeset</string>
+        <string>tv_rangev</string>
         <string>tv_ratio</string>
+        <string>tv_readclipstring</string>
         <string>tv_readprojectstring</string>
+        <string>tv_readtextfile</string>
         <string>tv_readuserstring</string>
         <string>tv_reapply</string>
+        <string>tv_recorder</string>
         <string>tv_rect</string>
         <string>tv_rectfill</string>
         <string>tv_redo</string>
@@ -211,7 +356,24 @@
         <string>tv_reqstring</string>
         <string>tv_request</string>
         <string>tv_resetdisplay</string>
+        <string>tv_resizepage</string>
         <string>tv_runscript</string>
+        <string>tv_savebrush</string>
+        <string>tv_savebrushanim</string>
+        <string>tv_saveclip</string>
+        <string>tv_savedisplay</string>
+        <string>tv_saveimage</string>
+        <string>tv_savemode</string>
+        <string>tv_savepalette</string>
+        <string>tv_saveproject</string>
+        <string>tv_savesequence</string>
+        <string>tv_sceneclose</string>
+        <string>tv_scenecurrentid</string>
+        <string>tv_sceneduplicate</string>
+        <string>tv_sceneenumid</string>
+        <string>tv_scenemove</string>
+        <string>tv_scenenew</string>
+        <string>tv_selectionmask</string>
         <string>tv_selectshapetool</string>
         <string>tv_serialnumber</string>
         <string>tv_setactiveshape</string>
@@ -224,6 +386,16 @@
         <string>tv_smooth</string>
         <string>tv_smoothdensity</string>
         <string>tv_smoothedge</string>
+        <string>tv_soundclipadjust</string>
+        <string>tv_soundclipinfo</string>
+        <string>tv_soundclipnew</string>
+        <string>tv_soundclipreload</string>
+        <string>tv_soundclipremove</string>
+        <string>tv_soundprojectadjust</string>
+        <string>tv_soundprojectinfo</string>
+        <string>tv_soundprojectnew</string>
+        <string>tv_soundprojectreload</string>
+        <string>tv_soundprojectremove</string>
         <string>tv_spareadddensity</string>
         <string>tv_sparecopy</string>
         <string>tv_sparekill</string>
@@ -233,32 +405,71 @@
         <string>tv_sparetofront</string>
         <string>tv_specialbrush</string>
         <string>tv_speed</string>
+        <string>tv_speedfillbrush</string>
+        <string>tv_speedfilleraser</string>
+        <string>tv_stackaddtobin</string>
+        <string>tv_stackapply</string>
+        <string>tv_stackclear</string>
+        <string>tv_stackclose</string>
+        <string>tv_stackexecute</string>
+        <string>tv_stackexecutebin</string>
+        <string>tv_stackload</string>
+        <string>tv_stackloadbin</string>
+        <string>tv_stackopen</string>
+        <string>tv_stackpreview</string>
+        <string>tv_stacksave</string>
+        <string>tv_stacksavebin</string>
         <string>tv_startframe</string>
         <string>tv_strokepoint</string>
         <string>tv_strokesize</string>
+        <string>tv_stylusonly</string>
+        <string>tv_systextbrush</string>
         <string>tv_tcmode</string>
+        <string>tv_text</string>
         <string>tv_textbrush</string>
-        <string>tv_texttool</string>
         <string>tv_texttool2</string>
         <string>tv_tornado</string>
         <string>tv_undo</string>
+        <string>tv_undoclosestack</string>
+        <string>tv_undoopenstack</string>
         <string>tv_unlockcacheflush</string>
         <string>tv_unlockdisplay</string>
         <string>tv_unlockmouse</string>
+        <string>tv_unlockuser</string>
         <string>tv_updateundo</string>
         <string>tv_version</string>
+        <string>tv_vfborder</string>
+        <string>tv_vfbordercolor</string>
         <string>tv_vfgetfont</string>
+        <string>tv_vfgetscript</string>
+        <string>tv_vfgetstyle</string>
+        <string>tv_vfglow</string>
+        <string>tv_vfglowcolor</string>
+        <string>tv_vfitalic</string>
+        <string>tv_vfoutline</string>
+        <string>tv_vfrotate</string>
+        <string>tv_vfscale</string>
+        <string>tv_vfsetfont</string>
+        <string>tv_vfsize</string>
+        <string>tv_vfsmooth</string>
+        <string>tv_vfspace</string>
         <string>tv_vfstringsize</string>
+        <string>tv_vftracking</string>
+        <string>tv_videodevice</string>
         <string>tv_waitbutton</string>
         <string>tv_warn</string>
-        <string>tv_warpbrush</string>
         <string>tv_wave</string>
         <string>tv_wetbrush</string>
+        <string>tv_wrapx</string>
+        <string>tv_wrapy</string>
+        <string>tv_writeclipstring</string>
         <string>tv_writepixel</string>
         <string>tv_writeprojectstring</string>
+        <string>tv_writetextfile</string>
         <string>tv_writeuserstring</string>
         <string>tv_zdot</string>
         <string>tv_zline</string>
+        <string>tv_zspline</string>
     </array>
 
     <key>Language Features</key>
