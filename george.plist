@@ -27,6 +27,43 @@
 
     <key>BBLMKeywordList</key>
     <array>
+        <string>#abs</string>
+        <string>#acos</string>
+        <string>#asin</string>
+        <string>#atan</string>
+        <string>#break</string>
+        <string>#char</string>
+        <string>#cmp</string>
+        <string>#cos</string>
+        <string>#cut</string>
+        <string>#date</string>
+        <string>#do</string>
+        <string>#else</string>
+        <string>#end</string>
+        <string>#exit</string>
+        <string>#for</string>
+        <string>#function</string>
+        <string>#if</string>
+        <string>#include</string>
+        <string>#len</string>
+        <string>#local</string>
+        <string>#max</string>
+        <string>#min</string>
+        <string>#param</string>
+        <string>#parse</string>
+        <string>#pause</string>
+        <string>#print</string>
+        <string>#result</string>
+        <string>#return</string>
+        <string>#rnd</string>
+        <string>#sin</string>
+        <string>#sqr</string>
+        <string>#tan</string>
+        <string>#time</string>
+        <string>#trunc</string>
+        <string>#until</string>
+        <string>#version</string>
+        <string>#while</string>
         <string>abs</string>
         <string>acos</string>
         <string>asin</string>
@@ -44,6 +81,7 @@
         <string>for</string>
         <string>function</string>
         <string>if</string>
+        <string>include</string>
         <string>len</string>
         <string>local</string>
         <string>max</string>
@@ -475,7 +513,7 @@
     <key>Language Features</key>
     <dict>
         <key>Identifier and Keyword Characters</key>
-        <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_-abcdefghijklmnopqrstuvwxyz</string>
+        <string>#0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_-abcdefghijklmnopqrstuvwxyz</string>
 
         <key>Prefix for Functions</key>         <string>function</string>
         <key>Prefix for Procedures</key>        <string>function</string>
